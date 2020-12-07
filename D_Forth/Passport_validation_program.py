@@ -21,8 +21,8 @@ class Passport:
     All information: ecl, pid, eyr, hcl, byr, iyr, hgt
 
     """
-    file_original = open("Documents_data.txt", "r", encoding="UTF-8")
-    file_converted = open("Documents_data_copy.txt", "r", encoding="UTF-8")
+    file_original = open("Documents_data_original.txt", "r", encoding="UTF-8")
+    file_converted = open("Documents_data_converted_copy.txt", "r", encoding="UTF-8")
     file_cid = open("cid_country.txt", "r", encoding="UTF-8")
     list_of_original_var = []
     list_of_cid = []
